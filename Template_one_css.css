@@ -1,0 +1,845 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 10, 2021, 3:07:46 PM
+    Author     : Pratik Deshmukh
+*/
+
+
+
+* {
+box-sizing: border-box;
+}
+
+
+
+/*-------------------------Navigation bar-----------------------*/
+.nav img {
+    height: 100px;
+    width :100px;
+    float:left;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.navbar {
+    float :right;
+    overflow: hidden;
+    background-color: #ffffff;
+/*display: inline-block;*/
+    font-family: Arial;
+    margin: 10px;
+}
+.margin_Set
+{
+    margin-right: 80px;
+    margin-top: 60px;
+}        
+        
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    border-radius: 8%;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    border-radius: 8%;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    overflow: hidden;
+    background-color: #cfa671;
+
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    overflow: hidden;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    overflow: hidden;
+    clear: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #cfa671;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}        
+        
+        
+        .nav nav li{
+                display: inline-block;
+                color: #ccccff;
+                
+                top: 0px;
+                width: 60px;
+                list-style-type: none;
+              
+                
+        }
+        
+        
+        .nav nav {
+                float:right;
+		
+                margin-right: 50px;
+                font-size: 20px;
+                padding: 30px;
+               
+                
+        }
+        .active{
+            background-color: #cfa671;
+        }
+        
+      
+        
+        
+            
+        .nav{
+            position: fixed;
+            top: 0;
+            
+            width: 100%;
+            height: 120px;
+            background-color: #ffffff;
+            z-index: 10;
+            
+        }
+        
+        
+        
+/*---------------Header Section----------------------------------------------*/        
+        
+.header_img{
+            clear: left;
+            background-image: url(bg_two.jpg);
+            height:700px;
+            color: #ffffff;
+            text-align: center;
+            padding-top: 200px;
+            position: static;
+            background-repeat: no-repeat;
+            opacity:0.8;
+            
+        }
+        .heading{
+            font-size: 55px;
+            color: #ffffff;
+            
+        }
+        .info{
+            
+            text-align: center;
+            padding: 30px;
+            height: 400px;
+            width: 550px;
+            float: right;
+      
+        }
+        .article_text{
+            font-size: 20px;
+            color: #333333;
+            
+        }      
+/*---------------------Section----------------------------------------*/
+
+
+
+
+        .img_one{
+            float: left;
+            height:350px;
+            width: 500px;
+            
+            margin-left: 100px;
+            margin-top: 100px;
+            box-shadow: -10px -10px 0px #d0a772;
+        }
+
+ /*-----------------------Reservation link----------------------------------*/       
+        
+        
+        
+a.reservation:link, a.reservation:visited {
+            
+            color: #cfa671;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-style: solid;
+        }
+
+        a.reservation:hover, a.reservation:active {
+            background-color:#cfa671;
+            color: #ffffff;
+        }
+        
+        
+ /*---------------------Navigatin bar link----------------------------------*/       
+        
+        a.navi:link, a.navi:visited {
+            
+            color: #000000;
+            padding: 8px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-style: hidden;
+        }
+
+        a.navi:hover, a.navi:active {
+            background-color: #d0a772;
+            color: #ffffff;
+        }
+   
+        
+/*-----------------------Sticky Section--------------------------------*/
+
+.sticky{
+        background-image: url("one.jpg");
+	background-size: cover;
+	padding: 100px 0;
+	background-attachment: fixed;
+	background-position: center center;
+	position: -webkit-sticky;
+        position: relative;
+        top: 0;
+        height: 400px;
+      
+       
+}
+
+
+.h1_over_img{
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    clear: left;
+    font-family: serif;
+    padding: 10px 20px;
+}   
+
+/*------------------------Menu------------------------------*/
+.button2 {
+  background-color: #f1f1f1;
+  border: none;
+  color: #000000;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5%;
+}
+.act{
+    color: #ffffff;
+    background-color: #cfa671;
+}
+
+        
+div.ex1 {
+width: 420px;
+margin: auto;
+border: 1px solid  #f1f1f1;
+}        
+.menu{
+    clear: left;
+    
+}
+
+.menu_img{
+    position: relative;
+    overflow: hidden;
+    float: none;
+    display: inline-block;
+    margin: auto;
+    width: 325px;
+    height: 300px;
+    margin-left: 50px;
+    
+}
+.over-text {
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    right: 0;
+    height: 100%;
+    background: rgba(207, 166, 113, 0.9);
+    padding: 12px 12px;
+    
+}
+.over-text h4{
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 500;
+	font-family: 'Arbutus Slab', serif;
+}
+.over-text p{
+	color: #ffffff;
+	font-size: 18px;
+	border-bottom: 1px dashed #010101;
+	margin: 0px;
+	padding-bottom: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.over-text h5{
+	font-size: 28px;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+.menu_img:hover .over-text{
+	bottom: 0px;
+}
+
+/*--------------------------------Gallery------------------------------*/
+
+.gallery{
+    clear: left;
+    
+}
+
+.gallery_img{
+    position: relative;
+    overflow: hidden;
+    float: none;
+    display: inline-block;
+    margin: auto;
+    width: 365px;
+    height: 300px;
+    margin-left: 30px;
+    
+}
+
+.hover1:hover {
+	 -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1);
+	z-index: 0;	
+}
+/*----------------------Customer Review-----------------------------------*/
+
+.customer{
+    float: left;
+    
+}
+
+.customer_img{
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin-left: 575px;
+    
+}
+.customer_name h3{
+   
+    color: #cfa671;
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+    margin-left: 475px;
+}
+
+
+.customer_name h4{
+    color:#000000;
+    text-align: center;
+    width: 300px;
+    margin-left: 475px;
+    
+}
+
+
+.customer_details{
+    font-size: 15px;
+    text-align: center;
+    color:#000000;
+    width: 550px;
+    clear: left;
+    margin-left: 375px;
+}
+
+/*----------------------------------Contact----------------------------------*/
+
+.contact{
+    background-color: #cfa671;
+   
+   
+    overflow: hidden;
+    z-index: -1;
+    
+}
+.icon{
+    float: left;
+    margin-top: 20px;
+    margin-left: 150px;
+    height: 50px;
+    width: 50px;
+    color: #ffffff;
+    border-radius: 100%;
+   
+}
+.text{
+    color: #ffffff;
+    float: left;
+    margin-left: 20px;
+    padding: 0px;
+    
+}
+
+
+/*------------------------Footer------------------------------*/
+
+.footer_img{
+    background-image: url(dryfriuts.jpg);
+    height: 300px;
+    overflow: hidden;
+    opacity: 0.8;
+    background-color: #000000;
+   
+}
+.footer_text{
+    color: #ffffff;
+    width: 230px;
+    float: left;
+    margin-left: 60px;
+    padding: 10px;
+}
+.sub_text{
+    width: 200px;
+    height: 50px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.sub_button{
+    width: 200px;
+    height: 50px;
+    background-color: #cfa671;
+    text-align: center;
+    
+}
+.end{
+    background-color: #000000;
+    height: 70px;
+    bottom: 0px;
+}
+.end h5{
+    color: #ffffff;
+    text-align: center;
+    font-family: serif;
+    padding: 25px;
+    
+}
+
+
+
+/*********************Menu page*********************/
+
+.bg_menu{
+    background-image: url(bg_one.jpeg);
+    opacity: 0.8;
+    height: 300px;
+    
+    
+}
+
+/*********************About page*********************/
+
+   
+    
+
+.about_text{
+     text-align: left;
+     font-size: 20px;
+     font-family: serif;
+     padding: 10px;
+     margin-left: 100px;
+     color: #333333;
+     margin-right: 100px;
+     
+     
+}
+
+/*********************Contact page*********************/
+.contact_form{
+    padding: 10px;
+    margin-left: 20%;
+    margin-top: 30px;
+    width: 800px;
+    
+}
+
+a.reservation1:link, a.reservation1:visited {
+            margin-left: 45%;
+            color: #cfa671;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-style: solid;
+        }
+
+        a.reservation1:hover, a.reservation1:active {
+            background-color:#cfa671;
+            color: #ffffff;
+            margin-left: 45%;
+        }
+        
+
+
+/*********************Reservation page*********************/
+
+
+
+
+.reservation_form{
+    padding: 15px;   
+    margin-top: 30px;
+    width: 350px;
+    margin-left: 225px;
+    font-size: 15px;
+    clear: left;
+}
+
+.reser_text h3{
+    float: left;
+    
+}
+
+
+
+
+/*********************stuff page*********************/
+* {
+box-sizing: border-box;
+}
+.box1 {
+float: left;
+width: 25.33%;
+padding: 50px;
+
+margin-left: 80px;
+height: 400px;
+}
+.clearfix1::after {
+content: "";
+clear: both;
+display: table;
+}
+.box1:hover{
+  box-shadow: -10px -10px 0px #d0a772;
+    
+}
+
+a.blog1:link, a.blog1:visited {
+            
+            color: #cfa671;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-style: solid;
+        }
+
+        a.blog1:hover, a.blog1:active {
+            background-color:#cfa671;
+            color: #ffffff;
+            
+        }
+        
+        
+/*********************Blog page*********************/
+* {
+box-sizing: border-box;
+}
+.box {
+float: left;
+width: 25.33%;
+padding: 50px;
+background-color: #ffffff;
+margin-left: 80px;
+height: 400px;
+
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+}
+.clearfix::after {
+content: "";
+clear: both;
+display: table;
+}
+.box:hover{
+    background-image: url( dinner_one.png);
+    opacity:0.5;
+    background-repeat: no-repeat;
+}
+.blog_text{
+    color: #cfa671;
+}
+
+a.blog:link, a.blog:visited {
+            
+            color: #cfa671;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-style: solid;
+        }
+
+        a.blog:hover, a.blog:active {
+            background-color:#cfa671;
+            color: #ffffff;
+            
+        }
+        
+        
+        
+/*********************Single Blog*********************/        
+
+
+.img_two{
+    float: left;
+    height:350px;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 50px;
+    box-shadow: -10px -10px 0px #d0a772;
+    } 
+        
+        
+.info1{
+    padding: 30px;
+    height: 400px;
+    width: 550px;
+    float: right;
+    }
+        
+.blog-search-form {
+    position: relative;
+    border-bottom: 1px solid #010101;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+.blog-search-form input {
+    width: 100%;
+    min-height: 40px;
+    border: 1px solid rgba(0,0,0,0.3);
+    padding: 5px 40px 5px 10px;
+    font-size: 15px;
+    color: #222222;
+}
+.blog-search-form .search-btn {
+    position: absolute;
+    right: 0px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    min-height: 40px;
+    padding: 0px 15px;
+}
+
+.right-side-blog h3 {
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 20px;
+}    
+        
+.blog_menu {
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+.blog_menu ul li {
+    line-height: 14px;
+    padding: 10px 0px;
+    border-top: 1px solid #f5f5f5;
+}
+.blog_menu ul li a {
+    display: inline-block;
+    
+    width: 100%;
+    text-align: left;
+    text-decoration: none;
+    color: #000000;
+}
+.blog_menu ul li a:hover{
+	color: #cfa671;
+}
+     
+
+
+
+
+.blog2{
+    float: left;
+    height:350px;
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 20px;
+    
+    
+}
+
+.coments{
+    margin-top: 70px;
+    height: 400px;
+    width: 550px;
+    float: right;
+}
+.para_blog{
+    box-shadow: -10px 0px 0px #d0a772;
+    color: #666666;
+    margin-left: 50px;
+}
+
+.sb_blog{
+    display: inline;
+    
+    
+    
+}
+.img_blog img{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+.sb_text{
+    margin-top: 20px;
+    
+    
+}
+.button1 {
+    background-color: #f1f1f1;
+  border: none;
+  color: #333333;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+ 
+  border-radius: 10%;
+}
+.button1:hover{
+    
+    color: #ffffff;
+    background-color: #cfa671;
+}
+
+
+.blog_form{
+    float: left;
+    height:300px;
+    width: 400px;
+    margin-left: 50px;
+    padding: 20px; 
+}
+.reservation_form1{
+    padding: 15px;   
+    width: 300px;
+    margin-left:50px;
+    font-size: 15px;
+    margin-top: 20px;
+    clear: left;
+}
+.blog_form1{
+    display: inline-block;
+    height: 400px;
+    width: 200px;
+    
+    margin-top: 40px;
+}
+.contact_form1{
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    clear: left;
+}
+
+
+a.reservation2:link, a.reservation2:visited {
+            margin-top: 20px;
+            color: #cfa671;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-style: solid;
+            margin-left: 48px;
+        }
+
+        a.reservation2:hover, a.reservation2:active {
+            background-color:#cfa671;
+            color: #ffffff;
+        }
+
+
+        .coment_blog{
+            
+            margin-left: 130px;
+        }
+        
+        
+.blog_a{
+    text-decoration: none;
+    color: #000000;
+        }
+.time{
+    float: right;
+    
+            
+            
+        }
